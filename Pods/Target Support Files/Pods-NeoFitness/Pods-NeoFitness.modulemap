@@ -1,0 +1,6 @@
+framework module Pods_NeoFitness {
+  umbrella header "Pods-NeoFitness-umbrella.h"
+
+  export *
+  module * { export * }
+}

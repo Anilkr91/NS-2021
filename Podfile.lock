@@ -1,0 +1,42 @@
+PODS:
+  - FSPagerView (0.8.3)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - PayUIndia-Custom-Browser (5.8.3)
+  - PayUmoney_CoreSDK (3.8):
+    - PayUIndia-Custom-Browser (~> 5.8.1)
+  - PayUmoney_PnP (2.5.1):
+    - PayUmoney_CoreSDK
+  - SwiftyUserDefaults (4.0.0)
+  - ZKCarousel (1.0.1)
+
+DEPENDENCIES:
+  - FSPagerView
+  - Kingfisher
+  - PayUmoney_PnP
+  - SwiftyUserDefaults (~> 4.0.0)
+  - ZKCarousel
+
+SPEC REPOS:
+  trunk:
+    - FSPagerView
+    - Kingfisher
+    - PayUIndia-Custom-Browser
+    - PayUmoney_CoreSDK
+    - PayUmoney_PnP
+    - SwiftyUserDefaults
+    - ZKCarousel
+
+SPEC CHECKSUMS:
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  PayUIndia-Custom-Browser: bbe28c515da2090dc29df9b6b137dff6bb72350b
+  PayUmoney_CoreSDK: 86bfa21ae5b7605930d256427db79df1f2834b58
+  PayUmoney_PnP: c65cabd4a4f4763f291d919b42abadc51fa01f6f
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+  ZKCarousel: 0ff2bb7f40bb8389e1be6e8b17f534febf566c40
+
+PODFILE CHECKSUM: 5e650e8de32f0d6191db2512e191bb21c1b6bfcb
+
+COCOAPODS: 1.8.4

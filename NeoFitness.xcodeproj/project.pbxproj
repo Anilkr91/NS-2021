@@ -1,0 +1,1600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040DB7E11AB8C5D600F1A414 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040DB7E01AB8C5D600F1A414 /* MapKit.framework */; };
+		040DB7E31AB8CBF600F1A414 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040DB7E21AB8CBF600F1A414 /* MessageUI.framework */; };
+		0452BA53243880580077F431 /* BADefaulterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452BA52243880580077F431 /* BADefaulterTVC.swift */; };
+		0466A2072431001E000264B4 /* BAHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A2062431001E000264B4 /* BAHome.swift */; };
+		0466A20924310054000264B4 /* BAProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A20824310054000264B4 /* BAProfile.swift */; };
+		0466A20C24310483000264B4 /* BAPackageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A20B24310483000264B4 /* BAPackageCollection.swift */; };
+		0466A20E2431049B000264B4 /* BAAttendence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A20D2431049B000264B4 /* BAAttendence.swift */; };
+		0466A210243104A6000264B4 /* BAPaymentDefaulters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A20F243104A6000264B4 /* BAPaymentDefaulters.swift */; };
+		0466A212243104C9000264B4 /* BAMembershipDefaulters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A211243104C9000264B4 /* BAMembershipDefaulters.swift */; };
+		0466A21424310509000264B4 /* BACustomerMembership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466A21324310509000264B4 /* BACustomerMembership.swift */; };
+		047E15D52427E212002665B5 /* bannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E15D42427E212002665B5 /* bannerTableViewCell.swift */; };
+		047E15D72427E547002665B5 /* ad1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 047E15D62427E547002665B5 /* ad1.jpeg */; };
+		049CB6D5245206B800A30D4A /* NoCreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CB6D3245206B700A30D4A /* NoCreditViewController.swift */; };
+		049CB6D6245206B800A30D4A /* NoCreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049CB6D4245206B800A30D4A /* NoCreditViewController.xib */; };
+		04A2376B2442096C00FFCD86 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2376A2442096C00FFCD86 /* UIView+Extension.swift */; };
+		04A2376D24421B3100FFCD86 /* profile_neo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A2376C24421B3100FFCD86 /* profile_neo.png */; };
+		04A383C01B37E7BE004FEE75 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A383BE1B37E7BE004FEE75 /* Main_iPad.storyboard */; };
+		04BA24E31ABF5D9100886BBC /* ServerConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA24E21ABF5D9100886BBC /* ServerConnect.m */; };
+		04D609671AB75FEB00222C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D609661AB75FEB00222C51 /* Foundation.framework */; };
+		04D609691AB75FEB00222C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D609681AB75FEB00222C51 /* CoreGraphics.framework */; };
+		04D6096B1AB75FEB00222C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D6096A1AB75FEB00222C51 /* UIKit.framework */; };
+		04D609711AB75FEB00222C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D6096F1AB75FEB00222C51 /* InfoPlist.strings */; };
+		04D609731AB75FEB00222C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D609721AB75FEB00222C51 /* main.m */; };
+		04D609771AB75FEB00222C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D609761AB75FEB00222C51 /* AppDelegate.m */; };
+		04D6097A1AB75FEB00222C51 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D609781AB75FEB00222C51 /* Main_iPhone.storyboard */; };
+		04D609821AB75FEB00222C51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D609811AB75FEB00222C51 /* Images.xcassets */; };
+		04D609891AB75FEB00222C51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D609881AB75FEB00222C51 /* XCTest.framework */; };
+		04D6098A1AB75FEB00222C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D609661AB75FEB00222C51 /* Foundation.framework */; };
+		04D6098B1AB75FEB00222C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D6096A1AB75FEB00222C51 /* UIKit.framework */; };
+		04D609931AB75FEB00222C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D609911AB75FEB00222C51 /* InfoPlist.strings */; };
+		04D609951AB75FEB00222C51 /* Indus_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D609941AB75FEB00222C51 /* Indus_2Tests.m */; };
+		04D609C31AB76EF700222C51 /* MainGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D609C21AB76EF700222C51 /* MainGridViewController.m */; };
+		04D609C61AB76F6C00222C51 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D609C51AB76F6C00222C51 /* LoginViewController.m */; };
+		04F3D75A1ACC80B400983593 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D7591ACC80B400983593 /* Utility.m */; };
+		04F3D75D1ACC815F00983593 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D75C1ACC815F00983593 /* Reachability.m */; };
+		04F3D7611ACC902A00983593 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D7601ACC902A00983593 /* MBProgressHUD.m */; };
+		04F94314243460D300D46904 /* ad2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04F94313243460D200D46904 /* ad2.jpeg */; };
+		04F943D1243654DC00D46904 /* BABaseTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F943D0243654DC00D46904 /* BABaseTVCell.swift */; };
+		04FFC0991ABDCFC30000730E /* ObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFC0981ABDCFC30000730E /* ObjectClass.m */; };
+		6102774C1D5C46D4009AA1B3 /* VSDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102774B1D5C46D4009AA1B3 /* VSDropdown.m */; };
+		61059A621D47A0AA0018781C /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 61059A601D47A0A90018781C /* exit.png */; };
+		611B29E61D4200E1004EAAC0 /* annotation_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 611B29BB1D4200E1004EAAC0 /* annotation_pin.png */; };
+		611B29E71D4200E1004EAAC0 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 611B29BC1D4200E1004EAAC0 /* check.png */; };
+		611B29E81D4200E1004EAAC0 /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 611B29BD1D4200E1004EAAC0 /* home-icon.png */; };
+		611B29E91D4200E1004EAAC0 /* home-iconx.png in Resources */ = {isa = PBXBuildFile; fileRef = 611B29BE1D4200E1004EAAC0 /* home-iconx.png */; };
+		611B29EB1D4200E1004EAAC0 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 611B29C01D4200E1004EAAC0 /* uncheck.png */; };
+		6122CDAC1D7D44E3009351AB /* GroupClassesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6122CDAB1D7D44E3009351AB /* GroupClassesTableViewCell.m */; };
+		6122CDAF1D7D4512009351AB /* GroupClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6122CDAE1D7D4512009351AB /* GroupClassesViewController.m */; };
+		612F953A1D7EB1B600B58882 /* WorkoutCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F95391D7EB1B600B58882 /* WorkoutCardViewController.m */; };
+		612F953D1D7EB1E000B58882 /* WorkoutCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F953C1D7EB1E000B58882 /* WorkoutCardTableViewCell.m */; };
+		613569EA1D9F90F2006CECCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613569E91D9F90F2006CECCF /* QuartzCore.framework */; };
+		613569EC1D9F9C82006CECCF /* insentive.png in Resources */ = {isa = PBXBuildFile; fileRef = 613569EB1D9F9C82006CECCF /* insentive.png */; };
+		6153F6451D9929B60065187D /* SupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153F6441D9929B60065187D /* SupportViewController.m */; };
+		6153F6481D9955440065187D /* MyAttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153F6471D9955440065187D /* MyAttendanceViewController.m */; };
+		6153F64B1D9955680065187D /* myAttendanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153F64A1D9955680065187D /* myAttendanceTableViewCell.m */; };
+		616C38F11D3F70AA00395E47 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38F01D3F70AA00395E47 /* MainNavigationController.m */; };
+		6176E42F1D599FBC007EEEE3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6176E42E1D599FBC007EEEE3 /* XMLReader.m */; };
+		6176E4311D59D431007EEEE3 /* workout_card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4301D59D431007EEEE3 /* workout_card1.png */; };
+		6176E4371D59D49F007EEEE3 /* attendance1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4321D59D49F007EEEE3 /* attendance1.png */; };
+		6176E4381D59D49F007EEEE3 /* diet_card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4331D59D49F007EEEE3 /* diet_card1.png */; };
+		6176E4391D59D49F007EEEE3 /* fitness_summary1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4341D59D49F007EEEE3 /* fitness_summary1.png */; };
+		6176E43A1D59D49F007EEEE3 /* group_classes1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4351D59D49F007EEEE3 /* group_classes1.png */; };
+		6176E43B1D59D49F007EEEE3 /* membership1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4361D59D49F007EEEE3 /* membership1.png */; };
+		6176E43D1D59D6DC007EEEE3 /* medical_history1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E43C1D59D6DC007EEEE3 /* medical_history1.png */; };
+		6176E43F1D59F05B007EEEE3 /* enquiry-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E43E1D59F05B007EEEE3 /* enquiry-1.png */; };
+		6176E4411D59F3E8007EEEE3 /* home-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4401D59F3E8007EEEE3 /* home-1.png */; };
+		6176E4441D59F713007EEEE3 /* dietcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4421D59F712007EEEE3 /* dietcard.png */; };
+		6176E4451D59F713007EEEE3 /* membership--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4431D59F713007EEEE3 /* membership--1.png */; };
+		6176E4471D59F9FF007EEEE3 /* enquiry_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 6176E4461D59F9FF007EEEE3 /* enquiry_en.png */; };
+		6176E44A1D5A0679007EEEE3 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6176E4491D5A0679007EEEE3 /* MyProfileViewController.m */; };
+		617976B41D913A5400B4CA80 /* fitnessSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 617976B31D913A5400B4CA80 /* fitnessSummaryTableViewCell.m */; };
+		617976B71D913A7A00B4CA80 /* fitnessSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617976B61D913A7A00B4CA80 /* fitnessSummaryViewController.m */; };
+		618364451D901A8D00A91F7D /* DietCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 618364441D901A8D00A91F7D /* DietCardTableViewCell.m */; };
+		618364481D901AAD00A91F7D /* DietCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618364471D901AAD00A91F7D /* DietCardViewController.m */; };
+		6188B8171D55D9680088EAF9 /* attendance.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7CE1D55D9680088EAF9 /* attendance.png */; };
+		6188B8181D55D9680088EAF9 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7CF1D55D9680088EAF9 /* call.png */; };
+		6188B8191D55D9680088EAF9 /* change_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D01D55D9680088EAF9 /* change_password.png */; };
+		6188B81C1D55D9680088EAF9 /* fitness_summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D31D55D9680088EAF9 /* fitness_summary.png */; };
+		6188B81D1D55D9680088EAF9 /* group_class.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D41D55D9680088EAF9 /* group_class.png */; };
+		6188B81F1D55D9680088EAF9 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D61D55D9680088EAF9 /* logout.png */; };
+		6188B8201D55D9680088EAF9 /* medical_history.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D71D55D9680088EAF9 /* medical_history.png */; };
+		6188B8221D55D9680088EAF9 /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7D91D55D9680088EAF9 /* support.png */; };
+		6188B8231D55D9680088EAF9 /* workout_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7DA1D55D9680088EAF9 /* workout_card.png */; };
+		6188B8241D55D9680088EAF9 /* drawr_top_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7DB1D55D9680088EAF9 /* drawr_top_strip.png */; };
+		6188B8251D55D9680088EAF9 /* drawr.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7DC1D55D9680088EAF9 /* drawr.png */; };
+		6188B8271D55D9680088EAF9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6188B7DE1D55D9680088EAF9 /* logo.png */; };
+		61B7792D1D5B1C680039833C /* login320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B779271D5B1C680039833C /* login320x480.png */; };
+		61B7792E1D5B1C680039833C /* login640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B779281D5B1C680039833C /* login640x960.png */; };
+		61B7792F1D5B1C680039833C /* login640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B779291D5B1C680039833C /* login640x1136.png */; };
+		61B779351D5B1FD30039833C /* SalesEnquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B779341D5B1FD30039833C /* SalesEnquiryViewController.m */; };
+		61B779381D5B1FFC0039833C /* salesEnquiryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B779371D5B1FFC0039833C /* salesEnquiryTableViewCell.m */; };
+		61B7793C1D5B279C0039833C /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B779391D5B279C0039833C /* background1.png */; };
+		61B7793D1D5B279C0039833C /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B7793A1D5B279C0039833C /* background2.png */; };
+		61B779411D5B48BD0039833C /* SubmitEnquiryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B779401D5B48BD0039833C /* SubmitEnquiryViewController.m */; };
+		61F6F1ED1D9A3F2100E40476 /* medicalHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F6F1EC1D9A3F2100E40476 /* medicalHistoryTableViewCell.m */; };
+		61F6F1F01D9A3F3E00E40476 /* medicalHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F6F1EF1D9A3F3E00E40476 /* medicalHistoryViewController.m */; };
+		61F6F1F31D9A4A2F00E40476 /* myMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F6F1F21D9A4A2F00E40476 /* myMembershipViewController.m */; };
+		61F6F1F61D9A563000E40476 /* myMembershipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F6F1F51D9A563000E40476 /* myMembershipTableViewCell.m */; };
+		620941D11E8E3F9C00FB4CD4 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 620941CF1E8E3F9C00FB4CD4 /* book.png */; };
+		620941D21E8E3F9C00FB4CD4 /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = 620941D01E8E3F9C00FB4CD4 /* online.png */; };
+		620941D51E8E3FA800FB4CD4 /* book_appointment.png in Resources */ = {isa = PBXBuildFile; fileRef = 620941D31E8E3FA800FB4CD4 /* book_appointment.png */; };
+		620941D61E8E3FA800FB4CD4 /* onile_consultation_report.png in Resources */ = {isa = PBXBuildFile; fileRef = 620941D41E8E3FA800FB4CD4 /* onile_consultation_report.png */; };
+		621396921F791314001F742F /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 621396911F791314001F742F /* CommentTableViewCell.m */; };
+		621485141ED2BF28003E7A8D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 621485131ED2BF28003E7A8D /* cross.png */; };
+		621F9CAB1F31095800F9D861 /* WebXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 621F9CA81F31095800F9D861 /* WebXMLParser.m */; };
+		621F9CAC1F31095800F9D861 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 621F9CAA1F31095800F9D861 /* XMLDictionary.m */; };
+		622DA09A1DE037D4001D6EF3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 622DA0991DE037D4001D6EF3 /* 3.png */; };
+		6232DE541F8CC90D0040DED8 /* UILabel+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6232DE531F8CC90D0040DED8 /* UILabel+Helper.m */; };
+		62475D0B1EA4CDBA00E6BDAC /* DrObservationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62475D0A1EA4CDBA00E6BDAC /* DrObservationTableViewCell.m */; };
+		62475D0E1EA4CDF500E6BDAC /* DrObservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62475D0D1EA4CDF500E6BDAC /* DrObservationViewController.m */; };
+		624F49DB1ECF031B00AE92ED /* ObesitySessionPopupViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F49DA1ECF031A00AE92ED /* ObesitySessionPopupViewTableViewCell.m */; };
+		628CB42A1F8B8110000858C3 /* support_mainscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 628CB4291F8B80D0000858C3 /* support_mainscreen.png */; };
+		629F58251ECC292700E41817 /* obesity_report1.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F58241ECC292700E41817 /* obesity_report1.png */; };
+		629F58271ECC293400E41817 /* obesity_report.png in Resources */ = {isa = PBXBuildFile; fileRef = 629F58261ECC293400E41817 /* obesity_report.png */; };
+		629F582A1ECC29CE00E41817 /* ObecityReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F58291ECC29CE00E41817 /* ObecityReportViewController.m */; };
+		629F582D1ECC348500E41817 /* ObacityReportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F582C1ECC348500E41817 /* ObacityReportTableViewCell.m */; };
+		62A1BE1A1ED59B0A00575D2B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A1BE191ED59B0A00575D2B /* back.png */; };
+		62B937A41ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B937A31ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m */; };
+		62B937A71ECD7E8200C3650C /* ObecityReportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B937A61ECD7E8200C3650C /* ObecityReportDetailViewController.m */; };
+		62B937AA1ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B937A91ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m */; };
+		62BD96D21F83B4050082313A /* today's_trainer_drawer.png in Resources */ = {isa = PBXBuildFile; fileRef = 62BD96D11F83B4050082313A /* today's_trainer_drawer.png */; };
+		62C540AE1F723C2F0011C403 /* TodayTrainersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C540AD1F723C2F0011C403 /* TodayTrainersViewController.m */; };
+		62C540B11F723C630011C403 /* TodayTrainerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C540B01F723C630011C403 /* TodayTrainerTableViewCell.m */; };
+		62C540BA1F724A8B0011C403 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C540B91F724A8B0011C403 /* star.png */; };
+		62C540BC1F724EF00011C403 /* today's_trainer.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C540BB1F724EF00011C403 /* today's_trainer.png */; };
+		62C540BE1F727CD70011C403 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C540BD1F727CD70011C403 /* favorite.png */; };
+		62D54C601F5AC36A00C97025 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D54C5F1F5AC36A00C97025 /* Default-568h@2x.png */; };
+		62D54C621F5AD29400C97025 /* mainscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D54C611F5AD29400C97025 /* mainscreen.png */; };
+		62D9E16A2036AB5000C7EF9F /* DietFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D9E1692036AB5000C7EF9F /* DietFeedbackViewController.m */; };
+		62D9E16D2036AB6900C7EF9F /* DietFeedbackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D9E16C2036AB6800C7EF9F /* DietFeedbackTableViewCell.m */; };
+		62E4E4DE1E3372A000484AEE /* testDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E4DD1E3372A000484AEE /* testDetailViewController.m */; };
+		62E4E4E11E3372C600484AEE /* testDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E4E01E3372C600484AEE /* testDetailTableViewCell.m */; };
+		718C69DC40AF4C5157E80963 /* Pods_NeoFitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637C669A290462F06DD1553E /* Pods_NeoFitnessTests.framework */; };
+		84BA33A21D1ABE6600D839B1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA33A11D1ABE6600D839B1 /* SWRevealViewController.m */; };
+		A224DC2223CB4DD70048292E /* ForgotPasswordTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224DC2123CB4DD70048292E /* ForgotPasswordTVC.swift */; };
+		A22ED06023D48DFD00DB2DDA /* CustomPayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED05F23D48DFD00DB2DDA /* CustomPayTVC.swift */; };
+		A25A4BC723C1B48C00F5E9F3 /* Thumbs.db in Sources */ = {isa = PBXBuildFile; fileRef = 611B29BF1D4200E1004EAAC0 /* Thumbs.db */; };
+		A25A4BC923C1CC2100F5E9F3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25A4BC823C1CC2100F5E9F3 /* Launch Screen.storyboard */; };
+		A261CD3723DD714A005A2D01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A261CD3623DD714A005A2D01 /* GoogleService-Info.plist */; };
+		A261CD3923DDBC51005A2D01 /* WorkOutDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261CD3823DDBC51005A2D01 /* WorkOutDetailTVC.swift */; };
+		A27BFF5E25CAB1C9001084E1 /* ShopProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BFF5D25CAB1C9001084E1 /* ShopProductsTableViewCell.swift */; };
+		A27BFF6025CAB60B001084E1 /* shopProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BFF5F25CAB60B001084E1 /* shopProductCollectionViewCell.swift */; };
+		A27DD79D23C9CB990018BC76 /* PackageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DD79C23C9CB990018BC76 /* PackageDetailViewController.swift */; };
+		A284BEC123925991006A0FB7 /* HomeTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A284BEC023925991006A0FB7 /* HomeTabbarController.swift */; };
+		A28E12C423939EBF0020BF87 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E12C323939EBF0020BF87 /* LocationTableViewController.swift */; };
+		A28E12C62393A18D0020BF87 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E12C52393A18D0020BF87 /* LocationTableViewCell.swift */; };
+		A28F9CBD235C7C300012739A /* PackageDetailTVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CBA235C7C2F0012739A /* PackageDetailTVCTableViewController.swift */; };
+		A28F9CBE235C7C300012739A /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CBB235C7C2F0012739A /* RegistrationTableViewController.swift */; };
+		A28F9CBF235C7C300012739A /* RegistrtaionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CBC235C7C300012739A /* RegistrtaionTableViewCell.swift */; };
+		A28F9CC1235C7C8E0012739A /* Helper+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CC0235C7C8E0012739A /* Helper+UIView.swift */; };
+		A28F9CC3235C7D4F0012739A /* NeoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CC2235C7D4F0012739A /* NeoConstants.swift */; };
+		A28F9CC5235C87970012739A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F9CC4235C87970012739A /* HomeTableViewController.swift */; };
+		A2A070FE23E58E7A00EF97B6 /* PackageListingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A070FD23E58E7A00EF97B6 /* PackageListingTVC.swift */; };
+		A2A33C9B236EE0950083B255 /* classTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A33C9A236EE0950083B255 /* classTableViewCell.swift */; };
+		A2A33C9D236EE6DA0083B255 /* classCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A33C9C236EE6DA0083B255 /* classCollectionViewCell.swift */; };
+		A2BA4B4423D309D4005E3188 /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA4B4323D309D4005E3188 /* PayUServiceHelper.m */; };
+		A2BA4B4623D3206F005E3188 /* GroupClassDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA4B4523D3206F005E3188 /* GroupClassDetailVC.swift */; };
+		A2BA4B4823D3210E005E3188 /* GroupClassDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA4B4723D3210E005E3188 /* GroupClassDetailCell.swift */; };
+		A2C5D78E2389074900099FBA /* workOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5D78D2389074900099FBA /* workOutTableViewCell.swift */; };
+		A2C5D79023890B8900099FBA /* CarouselTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5D78F23890B8900099FBA /* CarouselTableViewCell.swift */; };
+		A2C5D792238936DE00099FBA /* NFEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5D791238936DE00099FBA /* NFEnums.swift */; };
+		A2C5D79523895AEA00099FBA /* HelperUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5D79423895AEA00099FBA /* HelperUtility.swift */; };
+		A2D32E4725C949C400DC2E44 /* FitnessSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D32E4625C949C400DC2E44 /* FitnessSectionTableViewCell.swift */; };
+		A2D699CF2415092200F95D6E /* workout_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D699CE2415092200F95D6E /* workout_placeholder.jpg */; };
+		A2EA38C2236EB249008AA4BA /* CustomSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA38C0236EB249008AA4BA /* CustomSectionHeader.swift */; };
+		A2EA38C3236EB249008AA4BA /* CustomSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EA38C1236EB249008AA4BA /* CustomSectionHeader.xib */; };
+		D3EB9F9A1D46813D001172A7 /* SideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB9F991D46813D001172A7 /* SideTableViewCell.m */; };
+		D3EB9F9D1D468DFC001172A7 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB9F9C1D468DFC001172A7 /* SidebarTableViewController.m */; };
+		F274C04A7439B8819B11ABAA /* Pods_NeoFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F415E1D9244DB416D55CB5A /* Pods_NeoFitness.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D6098C1AB75FEB00222C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D6095B1AB75FEB00222C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D609621AB75FEB00222C51;
+			remoteInfo = "mNivesh-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040DB7E01AB8C5D600F1A414 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		040DB7E21AB8CBF600F1A414 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0452BA52243880580077F431 /* BADefaulterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BADefaulterTVC.swift; sourceTree = "<group>"; };
+		0466A2062431001E000264B4 /* BAHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAHome.swift; sourceTree = "<group>"; };
+		0466A20824310054000264B4 /* BAProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAProfile.swift; sourceTree = "<group>"; };
+		0466A20B24310483000264B4 /* BAPackageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAPackageCollection.swift; sourceTree = "<group>"; };
+		0466A20D2431049B000264B4 /* BAAttendence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAttendence.swift; sourceTree = "<group>"; };
+		0466A20F243104A6000264B4 /* BAPaymentDefaulters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAPaymentDefaulters.swift; sourceTree = "<group>"; };
+		0466A211243104C9000264B4 /* BAMembershipDefaulters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAMembershipDefaulters.swift; sourceTree = "<group>"; };
+		0466A21324310509000264B4 /* BACustomerMembership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACustomerMembership.swift; sourceTree = "<group>"; };
+		047E15D42427E212002665B5 /* bannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerTableViewCell.swift; sourceTree = "<group>"; };
+		047E15D62427E547002665B5 /* ad1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad1.jpeg; sourceTree = "<group>"; };
+		049CB6D3245206B700A30D4A /* NoCreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCreditViewController.swift; sourceTree = "<group>"; };
+		049CB6D4245206B800A30D4A /* NoCreditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoCreditViewController.xib; sourceTree = "<group>"; };
+		04A2376A2442096C00FFCD86 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		04A2376C24421B3100FFCD86 /* profile_neo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_neo.png; sourceTree = "<group>"; };
+		04A383BF1B37E7BE004FEE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		04BA24DF1ABF5D9100886BBC /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		04BA24E11ABF5D9100886BBC /* ServerConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConnect.h; sourceTree = "<group>"; };
+		04BA24E21ABF5D9100886BBC /* ServerConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerConnect.m; sourceTree = "<group>"; };
+		04D609631AB75FEB00222C51 /* NeoFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D609661AB75FEB00222C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04D609681AB75FEB00222C51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04D6096A1AB75FEB00222C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04D6096E1AB75FEB00222C51 /* NeoFitness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeoFitness-Info.plist"; sourceTree = "<group>"; };
+		04D609701AB75FEB00222C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D609721AB75FEB00222C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D609741AB75FEB00222C51 /* NeoFitness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeoFitness-Prefix.pch"; sourceTree = "<group>"; };
+		04D609751AB75FEB00222C51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D609761AB75FEB00222C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D609791AB75FEB00222C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		04D609811AB75FEB00222C51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04D609871AB75FEB00222C51 /* NeoFitness.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoFitness.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D609881AB75FEB00222C51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04D609901AB75FEB00222C51 /* SapientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SapientTests-Info.plist"; sourceTree = "<group>"; };
+		04D609921AB75FEB00222C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D609941AB75FEB00222C51 /* Indus_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indus_2Tests.m; sourceTree = "<group>"; };
+		04D609C11AB76EF700222C51 /* MainGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGridViewController.h; sourceTree = "<group>"; };
+		04D609C21AB76EF700222C51 /* MainGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGridViewController.m; sourceTree = "<group>"; };
+		04D609C41AB76F6C00222C51 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		04D609C51AB76F6C00222C51 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		04F3D7581ACC80B400983593 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		04F3D7591ACC80B400983593 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		04F3D75B1ACC815F00983593 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		04F3D75C1ACC815F00983593 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		04F3D75F1ACC902A00983593 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		04F3D7601ACC902A00983593 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		04F94313243460D200D46904 /* ad2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad2.jpeg; sourceTree = "<group>"; };
+		04F943D0243654DC00D46904 /* BABaseTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BABaseTVCell.swift; sourceTree = "<group>"; };
+		04FFC0971ABDCFC30000730E /* ObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectClass.h; sourceTree = "<group>"; };
+		04FFC0981ABDCFC30000730E /* ObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectClass.m; sourceTree = "<group>"; };
+		3BBF1238BFA0F30BCF5533AB /* Pods-NeoFitnessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoFitnessTests.debug.xcconfig"; path = "Target Support Files/Pods-NeoFitnessTests/Pods-NeoFitnessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DD6A2A4DFA62E5D1F3E4741 /* Pods-NeoFitnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoFitnessTests.release.xcconfig"; path = "Target Support Files/Pods-NeoFitnessTests/Pods-NeoFitnessTests.release.xcconfig"; sourceTree = "<group>"; };
+		51870FDEF4129BC7B907B4B4 /* Pods-NeoFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoFitness.release.xcconfig"; path = "Target Support Files/Pods-NeoFitness/Pods-NeoFitness.release.xcconfig"; sourceTree = "<group>"; };
+		5F415E1D9244DB416D55CB5A /* Pods_NeoFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6102774A1D5C46D3009AA1B3 /* VSDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSDropdown.h; path = ../../VSDropdown.h; sourceTree = "<group>"; };
+		6102774B1D5C46D4009AA1B3 /* VSDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSDropdown.m; path = ../../VSDropdown.m; sourceTree = "<group>"; };
+		61059A601D47A0A90018781C /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		611B29BB1D4200E1004EAAC0 /* annotation_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotation_pin.png; sourceTree = "<group>"; };
+		611B29BC1D4200E1004EAAC0 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		611B29BD1D4200E1004EAAC0 /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
+		611B29BE1D4200E1004EAAC0 /* home-iconx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-iconx.png"; sourceTree = "<group>"; };
+		611B29BF1D4200E1004EAAC0 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		611B29C01D4200E1004EAAC0 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		6122CDAA1D7D44E3009351AB /* GroupClassesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupClassesTableViewCell.h; sourceTree = "<group>"; };
+		6122CDAB1D7D44E3009351AB /* GroupClassesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupClassesTableViewCell.m; sourceTree = "<group>"; };
+		6122CDAD1D7D4512009351AB /* GroupClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupClassesViewController.h; sourceTree = "<group>"; };
+		6122CDAE1D7D4512009351AB /* GroupClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupClassesViewController.m; sourceTree = "<group>"; };
+		612F95381D7EB1B600B58882 /* WorkoutCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutCardViewController.h; sourceTree = "<group>"; };
+		612F95391D7EB1B600B58882 /* WorkoutCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutCardViewController.m; sourceTree = "<group>"; };
+		612F953B1D7EB1E000B58882 /* WorkoutCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutCardTableViewCell.h; sourceTree = "<group>"; };
+		612F953C1D7EB1E000B58882 /* WorkoutCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutCardTableViewCell.m; sourceTree = "<group>"; };
+		613569E91D9F90F2006CECCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		613569EB1D9F9C82006CECCF /* insentive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insentive.png; sourceTree = "<group>"; };
+		6153F6431D9929B60065187D /* SupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportViewController.h; sourceTree = "<group>"; };
+		6153F6441D9929B60065187D /* SupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportViewController.m; sourceTree = "<group>"; };
+		6153F6461D9955440065187D /* MyAttendanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAttendanceViewController.h; sourceTree = "<group>"; };
+		6153F6471D9955440065187D /* MyAttendanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAttendanceViewController.m; sourceTree = "<group>"; };
+		6153F6491D9955680065187D /* myAttendanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAttendanceTableViewCell.h; sourceTree = "<group>"; };
+		6153F64A1D9955680065187D /* myAttendanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAttendanceTableViewCell.m; sourceTree = "<group>"; };
+		616C38EF1D3F70AA00395E47 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		616C38F01D3F70AA00395E47 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		6176E42D1D599FBC007EEEE3 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		6176E42E1D599FBC007EEEE3 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		6176E4301D59D431007EEEE3 /* workout_card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout_card1.png; sourceTree = "<group>"; };
+		6176E4321D59D49F007EEEE3 /* attendance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendance1.png; sourceTree = "<group>"; };
+		6176E4331D59D49F007EEEE3 /* diet_card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diet_card1.png; sourceTree = "<group>"; };
+		6176E4341D59D49F007EEEE3 /* fitness_summary1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness_summary1.png; sourceTree = "<group>"; };
+		6176E4351D59D49F007EEEE3 /* group_classes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group_classes1.png; sourceTree = "<group>"; };
+		6176E4361D59D49F007EEEE3 /* membership1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = membership1.png; sourceTree = "<group>"; };
+		6176E43C1D59D6DC007EEEE3 /* medical_history1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medical_history1.png; sourceTree = "<group>"; };
+		6176E43E1D59F05B007EEEE3 /* enquiry-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enquiry-1.png"; sourceTree = "<group>"; };
+		6176E4401D59F3E8007EEEE3 /* home-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-1.png"; sourceTree = "<group>"; };
+		6176E4421D59F712007EEEE3 /* dietcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dietcard.png; sourceTree = "<group>"; };
+		6176E4431D59F713007EEEE3 /* membership--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "membership--1.png"; sourceTree = "<group>"; };
+		6176E4461D59F9FF007EEEE3 /* enquiry_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enquiry_en.png; sourceTree = "<group>"; };
+		6176E4481D5A0679007EEEE3 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		6176E4491D5A0679007EEEE3 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		617976B21D913A5400B4CA80 /* fitnessSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitnessSummaryTableViewCell.h; sourceTree = "<group>"; };
+		617976B31D913A5400B4CA80 /* fitnessSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fitnessSummaryTableViewCell.m; sourceTree = "<group>"; };
+		617976B51D913A7A00B4CA80 /* fitnessSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitnessSummaryViewController.h; sourceTree = "<group>"; };
+		617976B61D913A7A00B4CA80 /* fitnessSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fitnessSummaryViewController.m; sourceTree = "<group>"; };
+		618364431D901A8D00A91F7D /* DietCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietCardTableViewCell.h; sourceTree = "<group>"; };
+		618364441D901A8D00A91F7D /* DietCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietCardTableViewCell.m; sourceTree = "<group>"; };
+		618364461D901AAD00A91F7D /* DietCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietCardViewController.h; sourceTree = "<group>"; };
+		618364471D901AAD00A91F7D /* DietCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietCardViewController.m; sourceTree = "<group>"; };
+		6188B7CE1D55D9680088EAF9 /* attendance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendance.png; sourceTree = "<group>"; };
+		6188B7CF1D55D9680088EAF9 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		6188B7D01D55D9680088EAF9 /* change_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_password.png; sourceTree = "<group>"; };
+		6188B7D31D55D9680088EAF9 /* fitness_summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness_summary.png; sourceTree = "<group>"; };
+		6188B7D41D55D9680088EAF9 /* group_class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group_class.png; sourceTree = "<group>"; };
+		6188B7D61D55D9680088EAF9 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		6188B7D71D55D9680088EAF9 /* medical_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medical_history.png; sourceTree = "<group>"; };
+		6188B7D91D55D9680088EAF9 /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
+		6188B7DA1D55D9680088EAF9 /* workout_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout_card.png; sourceTree = "<group>"; };
+		6188B7DB1D55D9680088EAF9 /* drawr_top_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawr_top_strip.png; sourceTree = "<group>"; };
+		6188B7DC1D55D9680088EAF9 /* drawr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawr.png; sourceTree = "<group>"; };
+		6188B7DE1D55D9680088EAF9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		61B779271D5B1C680039833C /* login320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login320x480.png; sourceTree = "<group>"; };
+		61B779281D5B1C680039833C /* login640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login640x960.png; sourceTree = "<group>"; };
+		61B779291D5B1C680039833C /* login640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login640x1136.png; sourceTree = "<group>"; };
+		61B779331D5B1FD30039833C /* SalesEnquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesEnquiryViewController.h; sourceTree = "<group>"; };
+		61B779341D5B1FD30039833C /* SalesEnquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesEnquiryViewController.m; sourceTree = "<group>"; };
+		61B779361D5B1FFC0039833C /* salesEnquiryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = salesEnquiryTableViewCell.h; sourceTree = "<group>"; };
+		61B779371D5B1FFC0039833C /* salesEnquiryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = salesEnquiryTableViewCell.m; sourceTree = "<group>"; };
+		61B779391D5B279C0039833C /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		61B7793A1D5B279C0039833C /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		61B7793F1D5B48BD0039833C /* SubmitEnquiryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitEnquiryViewController.h; sourceTree = "<group>"; };
+		61B779401D5B48BD0039833C /* SubmitEnquiryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitEnquiryViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		61F6F1EB1D9A3F2100E40476 /* medicalHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicalHistoryTableViewCell.h; sourceTree = "<group>"; };
+		61F6F1EC1D9A3F2100E40476 /* medicalHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicalHistoryTableViewCell.m; sourceTree = "<group>"; };
+		61F6F1EE1D9A3F3E00E40476 /* medicalHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicalHistoryViewController.h; sourceTree = "<group>"; };
+		61F6F1EF1D9A3F3E00E40476 /* medicalHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicalHistoryViewController.m; sourceTree = "<group>"; };
+		61F6F1F11D9A4A2F00E40476 /* myMembershipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myMembershipViewController.h; sourceTree = "<group>"; };
+		61F6F1F21D9A4A2F00E40476 /* myMembershipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myMembershipViewController.m; sourceTree = "<group>"; };
+		61F6F1F41D9A563000E40476 /* myMembershipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myMembershipTableViewCell.h; sourceTree = "<group>"; };
+		61F6F1F51D9A563000E40476 /* myMembershipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myMembershipTableViewCell.m; sourceTree = "<group>"; };
+		620941CF1E8E3F9C00FB4CD4 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		620941D01E8E3F9C00FB4CD4 /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = "<group>"; };
+		620941D31E8E3FA800FB4CD4 /* book_appointment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_appointment.png; sourceTree = "<group>"; };
+		620941D41E8E3FA800FB4CD4 /* onile_consultation_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onile_consultation_report.png; sourceTree = "<group>"; };
+		621396901F791314001F742F /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		621396911F791314001F742F /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		621485131ED2BF28003E7A8D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		621F9CA71F31095800F9D861 /* WebXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebXMLParser.h; sourceTree = "<group>"; };
+		621F9CA81F31095800F9D861 /* WebXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebXMLParser.m; sourceTree = "<group>"; };
+		621F9CA91F31095800F9D861 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		621F9CAA1F31095800F9D861 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		622DA0991DE037D4001D6EF3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6232DE521F8CC90D0040DED8 /* UILabel+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helper.h"; sourceTree = "<group>"; };
+		6232DE531F8CC90D0040DED8 /* UILabel+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helper.m"; sourceTree = "<group>"; };
+		62475D091EA4CDBA00E6BDAC /* DrObservationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrObservationTableViewCell.h; sourceTree = "<group>"; };
+		62475D0A1EA4CDBA00E6BDAC /* DrObservationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrObservationTableViewCell.m; sourceTree = "<group>"; };
+		62475D0C1EA4CDF500E6BDAC /* DrObservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrObservationViewController.h; sourceTree = "<group>"; };
+		62475D0D1EA4CDF500E6BDAC /* DrObservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrObservationViewController.m; sourceTree = "<group>"; };
+		624F49D91ECF031A00AE92ED /* ObesitySessionPopupViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObesitySessionPopupViewTableViewCell.h; sourceTree = "<group>"; };
+		624F49DA1ECF031A00AE92ED /* ObesitySessionPopupViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObesitySessionPopupViewTableViewCell.m; sourceTree = "<group>"; };
+		628CB4291F8B80D0000858C3 /* support_mainscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_mainscreen.png; sourceTree = "<group>"; };
+		629F58241ECC292700E41817 /* obesity_report1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obesity_report1.png; sourceTree = "<group>"; };
+		629F58261ECC293400E41817 /* obesity_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obesity_report.png; sourceTree = "<group>"; };
+		629F58281ECC29CE00E41817 /* ObecityReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObecityReportViewController.h; sourceTree = "<group>"; };
+		629F58291ECC29CE00E41817 /* ObecityReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObecityReportViewController.m; sourceTree = "<group>"; };
+		629F582B1ECC348500E41817 /* ObacityReportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObacityReportTableViewCell.h; sourceTree = "<group>"; };
+		629F582C1ECC348500E41817 /* ObacityReportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObacityReportTableViewCell.m; sourceTree = "<group>"; };
+		62A1BE191ED59B0A00575D2B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		62B937A21ECD7E3600C3650C /* ObecityReportDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObecityReportDetailTableViewCell.h; sourceTree = "<group>"; };
+		62B937A31ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObecityReportDetailTableViewCell.m; sourceTree = "<group>"; };
+		62B937A51ECD7E8200C3650C /* ObecityReportDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObecityReportDetailViewController.h; sourceTree = "<group>"; };
+		62B937A61ECD7E8200C3650C /* ObecityReportDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObecityReportDetailViewController.m; sourceTree = "<group>"; };
+		62B937A81ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObesitySessionDetailTableViewCell.h; sourceTree = "<group>"; };
+		62B937A91ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObesitySessionDetailTableViewCell.m; sourceTree = "<group>"; };
+		62BD96D11F83B4050082313A /* today's_trainer_drawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today's_trainer_drawer.png"; sourceTree = "<group>"; };
+		62C540AC1F723C2F0011C403 /* TodayTrainersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayTrainersViewController.h; sourceTree = "<group>"; };
+		62C540AD1F723C2F0011C403 /* TodayTrainersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayTrainersViewController.m; sourceTree = "<group>"; };
+		62C540AF1F723C630011C403 /* TodayTrainerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayTrainerTableViewCell.h; sourceTree = "<group>"; };
+		62C540B01F723C630011C403 /* TodayTrainerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayTrainerTableViewCell.m; sourceTree = "<group>"; };
+		62C540B91F724A8B0011C403 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		62C540BB1F724EF00011C403 /* today's_trainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today's_trainer.png"; sourceTree = "<group>"; };
+		62C540BD1F727CD70011C403 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		62D54C5F1F5AC36A00C97025 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Splash/Default-568h@2x.png"; sourceTree = "<group>"; };
+		62D54C611F5AD29400C97025 /* mainscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainscreen.png; sourceTree = "<group>"; };
+		62D9E1682036AB5000C7EF9F /* DietFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DietFeedbackViewController.h; sourceTree = "<group>"; };
+		62D9E1692036AB5000C7EF9F /* DietFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietFeedbackViewController.m; sourceTree = "<group>"; };
+		62D9E16B2036AB6800C7EF9F /* DietFeedbackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DietFeedbackTableViewCell.h; sourceTree = "<group>"; };
+		62D9E16C2036AB6800C7EF9F /* DietFeedbackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietFeedbackTableViewCell.m; sourceTree = "<group>"; };
+		62E4E4DC1E3372A000484AEE /* testDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testDetailViewController.h; sourceTree = "<group>"; };
+		62E4E4DD1E3372A000484AEE /* testDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDetailViewController.m; sourceTree = "<group>"; };
+		62E4E4DF1E3372C600484AEE /* testDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testDetailTableViewCell.h; sourceTree = "<group>"; };
+		62E4E4E01E3372C600484AEE /* testDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDetailTableViewCell.m; sourceTree = "<group>"; };
+		637C669A290462F06DD1553E /* Pods_NeoFitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoFitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA33A01D1ABE6600D839B1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "NeoFitness/View Controllers/SwSlider/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
+		84BA33A11D1ABE6600D839B1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "NeoFitness/View Controllers/SwSlider/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
+		A224DC2123CB4DD70048292E /* ForgotPasswordTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordTVC.swift; sourceTree = "<group>"; };
+		A22ED05F23D48DFD00DB2DDA /* CustomPayTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPayTVC.swift; sourceTree = "<group>"; };
+		A25A4BC823C1CC2100F5E9F3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A261CD3623DD714A005A2D01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A261CD3823DDBC51005A2D01 /* WorkOutDetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutDetailTVC.swift; sourceTree = "<group>"; };
+		A27BFF5D25CAB1C9001084E1 /* ShopProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopProductsTableViewCell.swift; sourceTree = "<group>"; };
+		A27BFF5F25CAB60B001084E1 /* shopProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		A27DD79C23C9CB990018BC76 /* PackageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageDetailViewController.swift; sourceTree = "<group>"; };
+		A284BEC023925991006A0FB7 /* HomeTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabbarController.swift; sourceTree = "<group>"; };
+		A28E12C323939EBF0020BF87 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		A28E12C52393A18D0020BF87 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		A28F9CB9235C7C2F0012739A /* NeoFitness-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeoFitness-Bridging-Header.h"; sourceTree = "<group>"; };
+		A28F9CBA235C7C2F0012739A /* PackageDetailTVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageDetailTVCTableViewController.swift; sourceTree = "<group>"; };
+		A28F9CBB235C7C2F0012739A /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		A28F9CBC235C7C300012739A /* RegistrtaionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrtaionTableViewCell.swift; sourceTree = "<group>"; };
+		A28F9CC0235C7C8E0012739A /* Helper+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+UIView.swift"; sourceTree = "<group>"; };
+		A28F9CC2235C7D4F0012739A /* NeoConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeoConstants.swift; path = "View Controllers/NeoConstants.swift"; sourceTree = "<group>"; };
+		A28F9CC4235C87970012739A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		A2A070FD23E58E7A00EF97B6 /* PackageListingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListingTVC.swift; sourceTree = "<group>"; };
+		A2A33C9A236EE0950083B255 /* classTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classTableViewCell.swift; sourceTree = "<group>"; };
+		A2A33C9C236EE6DA0083B255 /* classCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2BA4B4223D309D4005E3188 /* PayUServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+		A2BA4B4323D309D4005E3188 /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
+		A2BA4B4523D3206F005E3188 /* GroupClassDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupClassDetailVC.swift; sourceTree = "<group>"; };
+		A2BA4B4723D3210E005E3188 /* GroupClassDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupClassDetailCell.swift; sourceTree = "<group>"; };
+		A2C5D78D2389074900099FBA /* workOutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workOutTableViewCell.swift; sourceTree = "<group>"; };
+		A2C5D78F23890B8900099FBA /* CarouselTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTableViewCell.swift; sourceTree = "<group>"; };
+		A2C5D791238936DE00099FBA /* NFEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFEnums.swift; sourceTree = "<group>"; };
+		A2C5D79423895AEA00099FBA /* HelperUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperUtility.swift; sourceTree = "<group>"; };
+		A2D32E4625C949C400DC2E44 /* FitnessSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSectionTableViewCell.swift; sourceTree = "<group>"; };
+		A2D699CE2415092200F95D6E /* workout_placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = workout_placeholder.jpg; sourceTree = "<group>"; };
+		A2EA38C0236EB249008AA4BA /* CustomSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSectionHeader.swift; path = "NeoFitness/View Controllers/CustomSectionHeader.swift"; sourceTree = SOURCE_ROOT; };
+		A2EA38C1236EB249008AA4BA /* CustomSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomSectionHeader.xib; path = "NeoFitness/View Controllers/CustomSectionHeader.xib"; sourceTree = SOURCE_ROOT; };
+		BE479B26BA688AE4D742FDB9 /* Pods-NeoFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoFitness.debug.xcconfig"; path = "Target Support Files/Pods-NeoFitness/Pods-NeoFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		D3EB9F981D46813D001172A7 /* SideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTableViewCell.h; sourceTree = "<group>"; };
+		D3EB9F991D46813D001172A7 /* SideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTableViewCell.m; sourceTree = "<group>"; };
+		D3EB9F9B1D468DFC001172A7 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		D3EB9F9C1D468DFC001172A7 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D609601AB75FEB00222C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613569EA1D9F90F2006CECCF /* QuartzCore.framework in Frameworks */,
+				040DB7E31AB8CBF600F1A414 /* MessageUI.framework in Frameworks */,
+				040DB7E11AB8C5D600F1A414 /* MapKit.framework in Frameworks */,
+				04D609691AB75FEB00222C51 /* CoreGraphics.framework in Frameworks */,
+				04D6096B1AB75FEB00222C51 /* UIKit.framework in Frameworks */,
+				04D609671AB75FEB00222C51 /* Foundation.framework in Frameworks */,
+				F274C04A7439B8819B11ABAA /* Pods_NeoFitness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D609841AB75FEB00222C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D609891AB75FEB00222C51 /* XCTest.framework in Frameworks */,
+				04D6098B1AB75FEB00222C51 /* UIKit.framework in Frameworks */,
+				04D6098A1AB75FEB00222C51 /* Foundation.framework in Frameworks */,
+				718C69DC40AF4C5157E80963 /* Pods_NeoFitnessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0466A20A24310065000264B4 /* BranchAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				049CB6D3245206B700A30D4A /* NoCreditViewController.swift */,
+				049CB6D4245206B800A30D4A /* NoCreditViewController.xib */,
+				0466A2062431001E000264B4 /* BAHome.swift */,
+				0466A20824310054000264B4 /* BAProfile.swift */,
+				0466A20B24310483000264B4 /* BAPackageCollection.swift */,
+				0466A20D2431049B000264B4 /* BAAttendence.swift */,
+				0466A20F243104A6000264B4 /* BAPaymentDefaulters.swift */,
+				0466A211243104C9000264B4 /* BAMembershipDefaulters.swift */,
+				0466A21324310509000264B4 /* BACustomerMembership.swift */,
+				04F943D0243654DC00D46904 /* BABaseTVCell.swift */,
+				0452BA52243880580077F431 /* BADefaulterTVC.swift */,
+			);
+			name = BranchAdmin;
+			sourceTree = "<group>";
+		};
+		04BA24DD1ABF5D9100886BBC /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				613569E51D9F8A17006CECCF /* ObjC */,
+				6102774A1D5C46D3009AA1B3 /* VSDropdown.h */,
+				6102774B1D5C46D4009AA1B3 /* VSDropdown.m */,
+				D368BA291D1AEAF100076F70 /* MainNavigation */,
+				84BA33A31D1AC05500D839B1 /* SlideBarTable */,
+				84BA339F1D1ABE4300D839B1 /* SwSlider */,
+				04F3D7571ACC80B400983593 /* Utility */,
+				04BA24DE1ABF5D9100886BBC /* Header Class */,
+				04BA24E01ABF5D9100886BBC /* Server Classes */,
+			);
+			path = "Other Classes";
+			sourceTree = "<group>";
+		};
+		04BA24DE1ABF5D9100886BBC /* Header Class */ = {
+			isa = PBXGroup;
+			children = (
+				04BA24DF1ABF5D9100886BBC /* CommonHeader.h */,
+			);
+			path = "Header Class";
+			sourceTree = "<group>";
+		};
+		04BA24E01ABF5D9100886BBC /* Server Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04BA24E11ABF5D9100886BBC /* ServerConnect.h */,
+				04BA24E21ABF5D9100886BBC /* ServerConnect.m */,
+			);
+			path = "Server Classes";
+			sourceTree = "<group>";
+		};
+		04D6095A1AB75FEB00222C51 = {
+			isa = PBXGroup;
+			children = (
+				04D6096C1AB75FEB00222C51 /* NeoFitness */,
+				04D6098E1AB75FEB00222C51 /* NeoFitnessTests */,
+				04D609651AB75FEB00222C51 /* Frameworks */,
+				04D609641AB75FEB00222C51 /* Products */,
+				4291D959BADCC29CCAFBC1D4 /* Pods */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		04D609641AB75FEB00222C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D609631AB75FEB00222C51 /* NeoFitness.app */,
+				04D609871AB75FEB00222C51 /* NeoFitness.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D609651AB75FEB00222C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613569E91D9F90F2006CECCF /* QuartzCore.framework */,
+				040DB7E21AB8CBF600F1A414 /* MessageUI.framework */,
+				040DB7E01AB8C5D600F1A414 /* MapKit.framework */,
+				04D609661AB75FEB00222C51 /* Foundation.framework */,
+				04D609681AB75FEB00222C51 /* CoreGraphics.framework */,
+				04D6096A1AB75FEB00222C51 /* UIKit.framework */,
+				04D609881AB75FEB00222C51 /* XCTest.framework */,
+				5F415E1D9244DB416D55CB5A /* Pods_NeoFitness.framework */,
+				637C669A290462F06DD1553E /* Pods_NeoFitnessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D6096C1AB75FEB00222C51 /* NeoFitness */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA4B4123D309D4005E3188 /* PayUService Helper */,
+				A28F9CC2235C7D4F0012739A /* NeoConstants.swift */,
+				A2C5D791238936DE00099FBA /* NFEnums.swift */,
+				A28F9CC0235C7C8E0012739A /* Helper+UIView.swift */,
+				04BA24DD1ABF5D9100886BBC /* Other Classes */,
+				04D609A91AB7652200222C51 /* Resources */,
+				04FFC0961ABDCF9A0000730E /* Singleton Class */,
+				04D609A51AB7650900222C51 /* View Controllers */,
+				04D609751AB75FEB00222C51 /* AppDelegate.h */,
+				04D609761AB75FEB00222C51 /* AppDelegate.m */,
+				04D609781AB75FEB00222C51 /* Main_iPhone.storyboard */,
+				04A383BE1B37E7BE004FEE75 /* Main_iPad.storyboard */,
+				A25A4BC823C1CC2100F5E9F3 /* Launch Screen.storyboard */,
+				04D609811AB75FEB00222C51 /* Images.xcassets */,
+				04D6096D1AB75FEB00222C51 /* Supporting Files */,
+				A2C5D79423895AEA00099FBA /* HelperUtility.swift */,
+				A28E12C52393A18D0020BF87 /* LocationTableViewCell.swift */,
+				04A2376A2442096C00FFCD86 /* UIView+Extension.swift */,
+			);
+			path = NeoFitness;
+			sourceTree = "<group>";
+		};
+		04D6096D1AB75FEB00222C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A261CD3623DD714A005A2D01 /* GoogleService-Info.plist */,
+				04D6096E1AB75FEB00222C51 /* NeoFitness-Info.plist */,
+				04D6096F1AB75FEB00222C51 /* InfoPlist.strings */,
+				04D609721AB75FEB00222C51 /* main.m */,
+				04D609741AB75FEB00222C51 /* NeoFitness-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D6098E1AB75FEB00222C51 /* NeoFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D609941AB75FEB00222C51 /* Indus_2Tests.m */,
+				04D6098F1AB75FEB00222C51 /* Supporting Files */,
+			);
+			name = NeoFitnessTests;
+			path = AktaTests;
+			sourceTree = "<group>";
+		};
+		04D6098F1AB75FEB00222C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D609901AB75FEB00222C51 /* SapientTests-Info.plist */,
+				04D609911AB75FEB00222C51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D609A51AB7650900222C51 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A28F9CBA235C7C2F0012739A /* PackageDetailTVCTableViewController.swift */,
+				A28F9CBB235C7C2F0012739A /* RegistrationTableViewController.swift */,
+				A28F9CBC235C7C300012739A /* RegistrtaionTableViewCell.swift */,
+				6122CDA91D7D44A3009351AB /* Costomer Vc */,
+				04D609C41AB76F6C00222C51 /* LoginViewController.h */,
+				04D609C51AB76F6C00222C51 /* LoginViewController.m */,
+				04D609C11AB76EF700222C51 /* MainGridViewController.h */,
+				04D609C21AB76EF700222C51 /* MainGridViewController.m */,
+				6122CDA81D7D4454009351AB /* SalesView Controllers */,
+				A2C5D79323893F3A00099FBA /* HomeTVC */,
+				A28F9CB9235C7C2F0012739A /* NeoFitness-Bridging-Header.h */,
+				A284BEC023925991006A0FB7 /* HomeTabbarController.swift */,
+				A28E12C323939EBF0020BF87 /* LocationTableViewController.swift */,
+				A27DD79C23C9CB990018BC76 /* PackageDetailViewController.swift */,
+				A224DC2123CB4DD70048292E /* ForgotPasswordTVC.swift */,
+				A2BA4B4523D3206F005E3188 /* GroupClassDetailVC.swift */,
+				A2BA4B4723D3210E005E3188 /* GroupClassDetailCell.swift */,
+				A22ED05F23D48DFD00DB2DDA /* CustomPayTVC.swift */,
+				A261CD3823DDBC51005A2D01 /* WorkOutDetailTVC.swift */,
+				A2A070FD23E58E7A00EF97B6 /* PackageListingTVC.swift */,
+				0466A20A24310065000264B4 /* BranchAdmin */,
+				A27BFF5D25CAB1C9001084E1 /* ShopProductsTableViewCell.swift */,
+				A27BFF5F25CAB60B001084E1 /* shopProductCollectionViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04D609A91AB7652200222C51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04A2376C24421B3100FFCD86 /* profile_neo.png */,
+				A2D699CE2415092200F95D6E /* workout_placeholder.jpg */,
+				62C540BD1F727CD70011C403 /* favorite.png */,
+				047E15D62427E547002665B5 /* ad1.jpeg */,
+				04F94313243460D200D46904 /* ad2.jpeg */,
+				62C540B91F724A8B0011C403 /* star.png */,
+				62D54C5F1F5AC36A00C97025 /* Default-568h@2x.png */,
+				6188B7CD1D55D9680088EAF9 /* drawr icon */,
+				6188B7DB1D55D9680088EAF9 /* drawr_top_strip.png */,
+				6188B7DC1D55D9680088EAF9 /* drawr.png */,
+				6188B7DE1D55D9680088EAF9 /* logo.png */,
+				6188B7E31D55D9680088EAF9 /* main screen icons */,
+				611B29BA1D4200E1004EAAC0 /* OtherImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04F3D7571ACC80B400983593 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				621F9CA71F31095800F9D861 /* WebXMLParser.h */,
+				621F9CA81F31095800F9D861 /* WebXMLParser.m */,
+				621F9CA91F31095800F9D861 /* XMLDictionary.h */,
+				621F9CAA1F31095800F9D861 /* XMLDictionary.m */,
+				04F3D75E1ACC902A00983593 /* MBProgressHUD */,
+				04F3D7581ACC80B400983593 /* Utility.h */,
+				04F3D7591ACC80B400983593 /* Utility.m */,
+				04F3D75B1ACC815F00983593 /* Reachability.h */,
+				04F3D75C1ACC815F00983593 /* Reachability.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		04F3D75E1ACC902A00983593 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04F3D75F1ACC902A00983593 /* MBProgressHUD.h */,
+				04F3D7601ACC902A00983593 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		04FFC0961ABDCF9A0000730E /* Singleton Class */ = {
+			isa = PBXGroup;
+			children = (
+				04FFC0971ABDCFC30000730E /* ObjectClass.h */,
+				04FFC0981ABDCFC30000730E /* ObjectClass.m */,
+			);
+			name = "Singleton Class";
+			path = "NeoFitness/Singleton Class";
+			sourceTree = SOURCE_ROOT;
+		};
+		4291D959BADCC29CCAFBC1D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE479B26BA688AE4D742FDB9 /* Pods-NeoFitness.debug.xcconfig */,
+				51870FDEF4129BC7B907B4B4 /* Pods-NeoFitness.release.xcconfig */,
+				3BBF1238BFA0F30BCF5533AB /* Pods-NeoFitnessTests.debug.xcconfig */,
+				3DD6A2A4DFA62E5D1F3E4741 /* Pods-NeoFitnessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		611B29BA1D4200E1004EAAC0 /* OtherImages */ = {
+			isa = PBXGroup;
+			children = (
+				611B29BF1D4200E1004EAAC0 /* Thumbs.db */,
+				62A1BE191ED59B0A00575D2B /* back.png */,
+				621485131ED2BF28003E7A8D /* cross.png */,
+				611B29BB1D4200E1004EAAC0 /* annotation_pin.png */,
+				611B29BC1D4200E1004EAAC0 /* check.png */,
+				611B29BD1D4200E1004EAAC0 /* home-icon.png */,
+				611B29BE1D4200E1004EAAC0 /* home-iconx.png */,
+				61059A601D47A0A90018781C /* exit.png */,
+				611B29C01D4200E1004EAAC0 /* uncheck.png */,
+			);
+			path = OtherImages;
+			sourceTree = "<group>";
+		};
+		6122CDA81D7D4454009351AB /* SalesView Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6176E4481D5A0679007EEEE3 /* MyProfileViewController.h */,
+				6176E4491D5A0679007EEEE3 /* MyProfileViewController.m */,
+				61B779331D5B1FD30039833C /* SalesEnquiryViewController.h */,
+				61B779341D5B1FD30039833C /* SalesEnquiryViewController.m */,
+				61B779361D5B1FFC0039833C /* salesEnquiryTableViewCell.h */,
+				61B779371D5B1FFC0039833C /* salesEnquiryTableViewCell.m */,
+				61B7793F1D5B48BD0039833C /* SubmitEnquiryViewController.h */,
+				61B779401D5B48BD0039833C /* SubmitEnquiryViewController.m */,
+			);
+			name = "SalesView Controllers";
+			sourceTree = "<group>";
+		};
+		6122CDA91D7D44A3009351AB /* Costomer Vc */ = {
+			isa = PBXGroup;
+			children = (
+				62D9E1672036AB2000C7EF9F /* DietFeedbackVC */,
+				62C540B41F723CDD0011C403 /* workout */,
+				62C540B31F723CB00011C403 /* GroupClasss */,
+				62C540B81F723D950011C403 /* My Membership */,
+				62C540B51F723D020011C403 /* DietCard */,
+				62C540B71F723D510011C403 /* FitnessSummary */,
+				6213968F1F791298001F742F /* DrObservation */,
+				6153F6441D9929B60065187D /* SupportViewController.m */,
+				6153F6431D9929B60065187D /* SupportViewController.h */,
+				6153F6461D9955440065187D /* MyAttendanceViewController.h */,
+				6153F6471D9955440065187D /* MyAttendanceViewController.m */,
+				6153F6491D9955680065187D /* myAttendanceTableViewCell.h */,
+				6153F64A1D9955680065187D /* myAttendanceTableViewCell.m */,
+				61F6F1EB1D9A3F2100E40476 /* medicalHistoryTableViewCell.h */,
+				61F6F1EC1D9A3F2100E40476 /* medicalHistoryTableViewCell.m */,
+				61F6F1EE1D9A3F3E00E40476 /* medicalHistoryViewController.h */,
+				61F6F1EF1D9A3F3E00E40476 /* medicalHistoryViewController.m */,
+				62E4E4DC1E3372A000484AEE /* testDetailViewController.h */,
+				62E4E4DD1E3372A000484AEE /* testDetailViewController.m */,
+				62E4E4DF1E3372C600484AEE /* testDetailTableViewCell.h */,
+				62E4E4E01E3372C600484AEE /* testDetailTableViewCell.m */,
+				629F58281ECC29CE00E41817 /* ObecityReportViewController.h */,
+				629F58291ECC29CE00E41817 /* ObecityReportViewController.m */,
+				629F582B1ECC348500E41817 /* ObacityReportTableViewCell.h */,
+				629F582C1ECC348500E41817 /* ObacityReportTableViewCell.m */,
+				62B937A21ECD7E3600C3650C /* ObecityReportDetailTableViewCell.h */,
+				62B937A31ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m */,
+				62B937A51ECD7E8200C3650C /* ObecityReportDetailViewController.h */,
+				62B937A61ECD7E8200C3650C /* ObecityReportDetailViewController.m */,
+				62B937A81ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.h */,
+				62B937A91ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m */,
+				624F49D91ECF031A00AE92ED /* ObesitySessionPopupViewTableViewCell.h */,
+				624F49DA1ECF031A00AE92ED /* ObesitySessionPopupViewTableViewCell.m */,
+				62C540B21F723C740011C403 /* TodayTrainer */,
+			);
+			name = "Costomer Vc";
+			sourceTree = "<group>";
+		};
+		613569E51D9F8A17006CECCF /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6232DE521F8CC90D0040DED8 /* UILabel+Helper.h */,
+				6232DE531F8CC90D0040DED8 /* UILabel+Helper.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		6188B7CD1D55D9680088EAF9 /* drawr icon */ = {
+			isa = PBXGroup;
+			children = (
+				62BD96D11F83B4050082313A /* today's_trainer_drawer.png */,
+				629F58261ECC293400E41817 /* obesity_report.png */,
+				620941CF1E8E3F9C00FB4CD4 /* book.png */,
+				620941D01E8E3F9C00FB4CD4 /* online.png */,
+				6176E4461D59F9FF007EEEE3 /* enquiry_en.png */,
+				6176E4421D59F712007EEEE3 /* dietcard.png */,
+				6176E4431D59F713007EEEE3 /* membership--1.png */,
+				6176E4401D59F3E8007EEEE3 /* home-1.png */,
+				6176E43E1D59F05B007EEEE3 /* enquiry-1.png */,
+				6188B7CE1D55D9680088EAF9 /* attendance.png */,
+				6188B7CF1D55D9680088EAF9 /* call.png */,
+				6188B7D01D55D9680088EAF9 /* change_password.png */,
+				6188B7D31D55D9680088EAF9 /* fitness_summary.png */,
+				6188B7D41D55D9680088EAF9 /* group_class.png */,
+				6188B7D61D55D9680088EAF9 /* logout.png */,
+				613569EB1D9F9C82006CECCF /* insentive.png */,
+				6188B7D71D55D9680088EAF9 /* medical_history.png */,
+				6188B7D91D55D9680088EAF9 /* support.png */,
+				6188B7DA1D55D9680088EAF9 /* workout_card.png */,
+			);
+			path = "drawr icon";
+			sourceTree = "<group>";
+		};
+		6188B7E31D55D9680088EAF9 /* main screen icons */ = {
+			isa = PBXGroup;
+			children = (
+				628CB4291F8B80D0000858C3 /* support_mainscreen.png */,
+				62C540BB1F724EF00011C403 /* today's_trainer.png */,
+				62D54C611F5AD29400C97025 /* mainscreen.png */,
+				629F58241ECC292700E41817 /* obesity_report1.png */,
+				620941D31E8E3FA800FB4CD4 /* book_appointment.png */,
+				620941D41E8E3FA800FB4CD4 /* onile_consultation_report.png */,
+				622DA0991DE037D4001D6EF3 /* 3.png */,
+				61B779391D5B279C0039833C /* background1.png */,
+				61B7793A1D5B279C0039833C /* background2.png */,
+				61B779271D5B1C680039833C /* login320x480.png */,
+				61B779281D5B1C680039833C /* login640x960.png */,
+				61B779291D5B1C680039833C /* login640x1136.png */,
+				6176E43C1D59D6DC007EEEE3 /* medical_history1.png */,
+				6176E4321D59D49F007EEEE3 /* attendance1.png */,
+				6176E4331D59D49F007EEEE3 /* diet_card1.png */,
+				6176E4341D59D49F007EEEE3 /* fitness_summary1.png */,
+				6176E4351D59D49F007EEEE3 /* group_classes1.png */,
+				6176E4361D59D49F007EEEE3 /* membership1.png */,
+				6176E4301D59D431007EEEE3 /* workout_card1.png */,
+			);
+			path = "main screen icons";
+			sourceTree = "<group>";
+		};
+		6213968F1F791298001F742F /* DrObservation */ = {
+			isa = PBXGroup;
+			children = (
+				62475D091EA4CDBA00E6BDAC /* DrObservationTableViewCell.h */,
+				62475D0A1EA4CDBA00E6BDAC /* DrObservationTableViewCell.m */,
+				62475D0C1EA4CDF500E6BDAC /* DrObservationViewController.h */,
+				62475D0D1EA4CDF500E6BDAC /* DrObservationViewController.m */,
+				621396901F791314001F742F /* CommentTableViewCell.h */,
+				621396911F791314001F742F /* CommentTableViewCell.m */,
+			);
+			name = DrObservation;
+			sourceTree = "<group>";
+		};
+		62C540B21F723C740011C403 /* TodayTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				62C540AC1F723C2F0011C403 /* TodayTrainersViewController.h */,
+				62C540AD1F723C2F0011C403 /* TodayTrainersViewController.m */,
+				62C540AF1F723C630011C403 /* TodayTrainerTableViewCell.h */,
+				62C540B01F723C630011C403 /* TodayTrainerTableViewCell.m */,
+			);
+			name = TodayTrainer;
+			sourceTree = "<group>";
+		};
+		62C540B31F723CB00011C403 /* GroupClasss */ = {
+			isa = PBXGroup;
+			children = (
+				6122CDAA1D7D44E3009351AB /* GroupClassesTableViewCell.h */,
+				6122CDAB1D7D44E3009351AB /* GroupClassesTableViewCell.m */,
+				6122CDAD1D7D4512009351AB /* GroupClassesViewController.h */,
+				6122CDAE1D7D4512009351AB /* GroupClassesViewController.m */,
+			);
+			name = GroupClasss;
+			sourceTree = "<group>";
+		};
+		62C540B41F723CDD0011C403 /* workout */ = {
+			isa = PBXGroup;
+			children = (
+				612F953B1D7EB1E000B58882 /* WorkoutCardTableViewCell.h */,
+				612F953C1D7EB1E000B58882 /* WorkoutCardTableViewCell.m */,
+				612F95381D7EB1B600B58882 /* WorkoutCardViewController.h */,
+				612F95391D7EB1B600B58882 /* WorkoutCardViewController.m */,
+			);
+			name = workout;
+			sourceTree = "<group>";
+		};
+		62C540B51F723D020011C403 /* DietCard */ = {
+			isa = PBXGroup;
+			children = (
+				618364431D901A8D00A91F7D /* DietCardTableViewCell.h */,
+				618364441D901A8D00A91F7D /* DietCardTableViewCell.m */,
+				618364461D901AAD00A91F7D /* DietCardViewController.h */,
+				618364471D901AAD00A91F7D /* DietCardViewController.m */,
+			);
+			name = DietCard;
+			sourceTree = "<group>";
+		};
+		62C540B71F723D510011C403 /* FitnessSummary */ = {
+			isa = PBXGroup;
+			children = (
+				617976B21D913A5400B4CA80 /* fitnessSummaryTableViewCell.h */,
+				617976B31D913A5400B4CA80 /* fitnessSummaryTableViewCell.m */,
+				617976B51D913A7A00B4CA80 /* fitnessSummaryViewController.h */,
+				617976B61D913A7A00B4CA80 /* fitnessSummaryViewController.m */,
+			);
+			name = FitnessSummary;
+			sourceTree = "<group>";
+		};
+		62C540B81F723D950011C403 /* My Membership */ = {
+			isa = PBXGroup;
+			children = (
+				61F6F1F41D9A563000E40476 /* myMembershipTableViewCell.h */,
+				61F6F1F51D9A563000E40476 /* myMembershipTableViewCell.m */,
+				61F6F1F11D9A4A2F00E40476 /* myMembershipViewController.h */,
+				61F6F1F21D9A4A2F00E40476 /* myMembershipViewController.m */,
+			);
+			name = "My Membership";
+			sourceTree = "<group>";
+		};
+		62D9E1672036AB2000C7EF9F /* DietFeedbackVC */ = {
+			isa = PBXGroup;
+			children = (
+				62D9E1682036AB5000C7EF9F /* DietFeedbackViewController.h */,
+				62D9E1692036AB5000C7EF9F /* DietFeedbackViewController.m */,
+				62D9E16B2036AB6800C7EF9F /* DietFeedbackTableViewCell.h */,
+				62D9E16C2036AB6800C7EF9F /* DietFeedbackTableViewCell.m */,
+			);
+			name = DietFeedbackVC;
+			sourceTree = "<group>";
+		};
+		84BA339F1D1ABE4300D839B1 /* SwSlider */ = {
+			isa = PBXGroup;
+			children = (
+				84BA33A01D1ABE6600D839B1 /* SWRevealViewController.h */,
+				84BA33A11D1ABE6600D839B1 /* SWRevealViewController.m */,
+				6176E42D1D599FBC007EEEE3 /* XMLReader.h */,
+				6176E42E1D599FBC007EEEE3 /* XMLReader.m */,
+			);
+			name = SwSlider;
+			path = "../View Controllers/SwSlider";
+			sourceTree = "<group>";
+		};
+		84BA33A31D1AC05500D839B1 /* SlideBarTable */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB9F981D46813D001172A7 /* SideTableViewCell.h */,
+				D3EB9F991D46813D001172A7 /* SideTableViewCell.m */,
+				D3EB9F9B1D468DFC001172A7 /* SidebarTableViewController.h */,
+				D3EB9F9C1D468DFC001172A7 /* SidebarTableViewController.m */,
+			);
+			name = SlideBarTable;
+			sourceTree = "<group>";
+		};
+		A2BA4B4123D309D4005E3188 /* PayUService Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA4B4223D309D4005E3188 /* PayUServiceHelper.h */,
+				A2BA4B4323D309D4005E3188 /* PayUServiceHelper.m */,
+			);
+			name = "PayUService Helper";
+			path = "Other Classes/PayUService Helper";
+			sourceTree = "<group>";
+		};
+		A2C5D79323893F3A00099FBA /* HomeTVC */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA38C0236EB249008AA4BA /* CustomSectionHeader.swift */,
+				A2EA38C1236EB249008AA4BA /* CustomSectionHeader.xib */,
+				A28F9CC4235C87970012739A /* HomeTableViewController.swift */,
+				A2A33C9A236EE0950083B255 /* classTableViewCell.swift */,
+				A2A33C9C236EE6DA0083B255 /* classCollectionViewCell.swift */,
+				A2C5D78D2389074900099FBA /* workOutTableViewCell.swift */,
+				A2C5D78F23890B8900099FBA /* CarouselTableViewCell.swift */,
+				047E15D42427E212002665B5 /* bannerTableViewCell.swift */,
+				A2D32E4625C949C400DC2E44 /* FitnessSectionTableViewCell.swift */,
+			);
+			name = HomeTVC;
+			sourceTree = "<group>";
+		};
+		D368BA291D1AEAF100076F70 /* MainNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				616C38EF1D3F70AA00395E47 /* MainNavigationController.h */,
+				616C38F01D3F70AA00395E47 /* MainNavigationController.m */,
+			);
+			name = MainNavigation;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D609621AB75FEB00222C51 /* NeoFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D609981AB75FEB00222C51 /* Build configuration list for PBXNativeTarget "NeoFitness" */;
+			buildPhases = (
+				18A553AE43B6899AC4679813 /* [CP] Check Pods Manifest.lock */,
+				04D6095F1AB75FEB00222C51 /* Sources */,
+				04D609601AB75FEB00222C51 /* Frameworks */,
+				04D609611AB75FEB00222C51 /* Resources */,
+				517DCC94AC330FF7C550E34E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoFitness;
+			productName = "mNivesh-2";
+			productReference = 04D609631AB75FEB00222C51 /* NeoFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D609861AB75FEB00222C51 /* NeoFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D6099B1AB75FEB00222C51 /* Build configuration list for PBXNativeTarget "NeoFitnessTests" */;
+			buildPhases = (
+				B6265204A9A879067DB3872F /* [CP] Check Pods Manifest.lock */,
+				04D609831AB75FEB00222C51 /* Sources */,
+				04D609841AB75FEB00222C51 /* Frameworks */,
+				04D609851AB75FEB00222C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D6098D1AB75FEB00222C51 /* PBXTargetDependency */,
+			);
+			name = NeoFitnessTests;
+			productName = "mNivesh-2Tests";
+			productReference = 04D609871AB75FEB00222C51 /* NeoFitness.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D6095B1AB75FEB00222C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dmondo;
+				TargetAttributes = {
+					04D609621AB75FEB00222C51 = {
+						DevelopmentTeam = 49ZXSM566S;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+					04D609861AB75FEB00222C51 = {
+						DevelopmentTeam = XE22B68L7U;
+						ProvisioningStyle = Manual;
+						TestTargetID = 04D609621AB75FEB00222C51;
+					};
+				};
+			};
+			buildConfigurationList = 04D6095E1AB75FEB00222C51 /* Build configuration list for PBXProject "NeoFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 04D6095A1AB75FEB00222C51;
+			productRefGroup = 04D609641AB75FEB00222C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D609621AB75FEB00222C51 /* NeoFitness */,
+				04D609861AB75FEB00222C51 /* NeoFitnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D609611AB75FEB00222C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620941D11E8E3F9C00FB4CD4 /* book.png in Resources */,
+				611B29E91D4200E1004EAAC0 /* home-iconx.png in Resources */,
+				62C540BA1F724A8B0011C403 /* star.png in Resources */,
+				6176E4391D59D49F007EEEE3 /* fitness_summary1.png in Resources */,
+				6188B81D1D55D9680088EAF9 /* group_class.png in Resources */,
+				6188B81F1D55D9680088EAF9 /* logout.png in Resources */,
+				6176E43F1D59F05B007EEEE3 /* enquiry-1.png in Resources */,
+				04D609821AB75FEB00222C51 /* Images.xcassets in Resources */,
+				6176E4381D59D49F007EEEE3 /* diet_card1.png in Resources */,
+				62D54C601F5AC36A00C97025 /* Default-568h@2x.png in Resources */,
+				613569EC1D9F9C82006CECCF /* insentive.png in Resources */,
+				6176E4451D59F713007EEEE3 /* membership--1.png in Resources */,
+				6176E4371D59D49F007EEEE3 /* attendance1.png in Resources */,
+				6176E4471D59F9FF007EEEE3 /* enquiry_en.png in Resources */,
+				620941D61E8E3FA800FB4CD4 /* onile_consultation_report.png in Resources */,
+				6188B8251D55D9680088EAF9 /* drawr.png in Resources */,
+				62BD96D21F83B4050082313A /* today's_trainer_drawer.png in Resources */,
+				62C540BE1F727CD70011C403 /* favorite.png in Resources */,
+				6176E4441D59F713007EEEE3 /* dietcard.png in Resources */,
+				A2EA38C3236EB249008AA4BA /* CustomSectionHeader.xib in Resources */,
+				629F58271ECC293400E41817 /* obesity_report.png in Resources */,
+				620941D51E8E3FA800FB4CD4 /* book_appointment.png in Resources */,
+				629F58251ECC292700E41817 /* obesity_report1.png in Resources */,
+				6176E43D1D59D6DC007EEEE3 /* medical_history1.png in Resources */,
+				6176E4311D59D431007EEEE3 /* workout_card1.png in Resources */,
+				A261CD3723DD714A005A2D01 /* GoogleService-Info.plist in Resources */,
+				6188B8231D55D9680088EAF9 /* workout_card.png in Resources */,
+				62D54C621F5AD29400C97025 /* mainscreen.png in Resources */,
+				6188B8191D55D9680088EAF9 /* change_password.png in Resources */,
+				620941D21E8E3F9C00FB4CD4 /* online.png in Resources */,
+				61B7792D1D5B1C680039833C /* login320x480.png in Resources */,
+				61B7793D1D5B279C0039833C /* background2.png in Resources */,
+				04A2376D24421B3100FFCD86 /* profile_neo.png in Resources */,
+				611B29E71D4200E1004EAAC0 /* check.png in Resources */,
+				049CB6D6245206B800A30D4A /* NoCreditViewController.xib in Resources */,
+				61059A621D47A0AA0018781C /* exit.png in Resources */,
+				61B7793C1D5B279C0039833C /* background1.png in Resources */,
+				6176E43A1D59D49F007EEEE3 /* group_classes1.png in Resources */,
+				04D6097A1AB75FEB00222C51 /* Main_iPhone.storyboard in Resources */,
+				61B7792E1D5B1C680039833C /* login640x960.png in Resources */,
+				6188B8181D55D9680088EAF9 /* call.png in Resources */,
+				6188B8171D55D9680088EAF9 /* attendance.png in Resources */,
+				611B29EB1D4200E1004EAAC0 /* uncheck.png in Resources */,
+				04A383C01B37E7BE004FEE75 /* Main_iPad.storyboard in Resources */,
+				61B7792F1D5B1C680039833C /* login640x1136.png in Resources */,
+				628CB42A1F8B8110000858C3 /* support_mainscreen.png in Resources */,
+				62A1BE1A1ED59B0A00575D2B /* back.png in Resources */,
+				047E15D72427E547002665B5 /* ad1.jpeg in Resources */,
+				6188B8221D55D9680088EAF9 /* support.png in Resources */,
+				611B29E61D4200E1004EAAC0 /* annotation_pin.png in Resources */,
+				A2D699CF2415092200F95D6E /* workout_placeholder.jpg in Resources */,
+				6176E43B1D59D49F007EEEE3 /* membership1.png in Resources */,
+				611B29E81D4200E1004EAAC0 /* home-icon.png in Resources */,
+				04F94314243460D300D46904 /* ad2.jpeg in Resources */,
+				6176E4411D59F3E8007EEEE3 /* home-1.png in Resources */,
+				621485141ED2BF28003E7A8D /* cross.png in Resources */,
+				6188B8271D55D9680088EAF9 /* logo.png in Resources */,
+				6188B81C1D55D9680088EAF9 /* fitness_summary.png in Resources */,
+				6188B8201D55D9680088EAF9 /* medical_history.png in Resources */,
+				04D609711AB75FEB00222C51 /* InfoPlist.strings in Resources */,
+				A25A4BC923C1CC2100F5E9F3 /* Launch Screen.storyboard in Resources */,
+				6188B8241D55D9680088EAF9 /* drawr_top_strip.png in Resources */,
+				622DA09A1DE037D4001D6EF3 /* 3.png in Resources */,
+				62C540BC1F724EF00011C403 /* today's_trainer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D609851AB75FEB00222C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D609931AB75FEB00222C51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A553AE43B6899AC4679813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoFitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		517DCC94AC330FF7C550E34E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoFitness/Pods-NeoFitness-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/ZKCarousel/ZKCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUCustomBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZKCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoFitness/Pods-NeoFitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6265204A9A879067DB3872F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoFitnessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D6095F1AB75FEB00222C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25A4BC723C1B48C00F5E9F3 /* Thumbs.db in Sources */,
+				62475D0B1EA4CDBA00E6BDAC /* DrObservationTableViewCell.m in Sources */,
+				D3EB9F9D1D468DFC001172A7 /* SidebarTableViewController.m in Sources */,
+				A28F9CBD235C7C300012739A /* PackageDetailTVCTableViewController.swift in Sources */,
+				621F9CAC1F31095800F9D861 /* XMLDictionary.m in Sources */,
+				A2C5D792238936DE00099FBA /* NFEnums.swift in Sources */,
+				A2A33C9D236EE6DA0083B255 /* classCollectionViewCell.swift in Sources */,
+				617976B41D913A5400B4CA80 /* fitnessSummaryTableViewCell.m in Sources */,
+				6232DE541F8CC90D0040DED8 /* UILabel+Helper.m in Sources */,
+				0466A21424310509000264B4 /* BACustomerMembership.swift in Sources */,
+				0466A212243104C9000264B4 /* BAMembershipDefaulters.swift in Sources */,
+				84BA33A21D1ABE6600D839B1 /* SWRevealViewController.m in Sources */,
+				A2D32E4725C949C400DC2E44 /* FitnessSectionTableViewCell.swift in Sources */,
+				04D609C31AB76EF700222C51 /* MainGridViewController.m in Sources */,
+				61F6F1ED1D9A3F2100E40476 /* medicalHistoryTableViewCell.m in Sources */,
+				04BA24E31ABF5D9100886BBC /* ServerConnect.m in Sources */,
+				A2A070FE23E58E7A00EF97B6 /* PackageListingTVC.swift in Sources */,
+				618364481D901AAD00A91F7D /* DietCardViewController.m in Sources */,
+				6122CDAC1D7D44E3009351AB /* GroupClassesTableViewCell.m in Sources */,
+				A2BA4B4623D3206F005E3188 /* GroupClassDetailVC.swift in Sources */,
+				047E15D52427E212002665B5 /* bannerTableViewCell.swift in Sources */,
+				A28E12C62393A18D0020BF87 /* LocationTableViewCell.swift in Sources */,
+				A22ED06023D48DFD00DB2DDA /* CustomPayTVC.swift in Sources */,
+				0466A20C24310483000264B4 /* BAPackageCollection.swift in Sources */,
+				A27BFF6025CAB60B001084E1 /* shopProductCollectionViewCell.swift in Sources */,
+				0466A2072431001E000264B4 /* BAHome.swift in Sources */,
+				616C38F11D3F70AA00395E47 /* MainNavigationController.m in Sources */,
+				62D9E16D2036AB6900C7EF9F /* DietFeedbackTableViewCell.m in Sources */,
+				62D9E16A2036AB5000C7EF9F /* DietFeedbackViewController.m in Sources */,
+				612F953D1D7EB1E000B58882 /* WorkoutCardTableViewCell.m in Sources */,
+				A2A33C9B236EE0950083B255 /* classTableViewCell.swift in Sources */,
+				04F3D75D1ACC815F00983593 /* Reachability.m in Sources */,
+				A27BFF5E25CAB1C9001084E1 /* ShopProductsTableViewCell.swift in Sources */,
+				6153F6451D9929B60065187D /* SupportViewController.m in Sources */,
+				04F3D75A1ACC80B400983593 /* Utility.m in Sources */,
+				62C540AE1F723C2F0011C403 /* TodayTrainersViewController.m in Sources */,
+				04F943D1243654DC00D46904 /* BABaseTVCell.swift in Sources */,
+				A28F9CC5235C87970012739A /* HomeTableViewController.swift in Sources */,
+				A28F9CBF235C7C300012739A /* RegistrtaionTableViewCell.swift in Sources */,
+				6176E44A1D5A0679007EEEE3 /* MyProfileViewController.m in Sources */,
+				61B779411D5B48BD0039833C /* SubmitEnquiryViewController.m in Sources */,
+				612F953A1D7EB1B600B58882 /* WorkoutCardViewController.m in Sources */,
+				A2BA4B4423D309D4005E3188 /* PayUServiceHelper.m in Sources */,
+				0466A210243104A6000264B4 /* BAPaymentDefaulters.swift in Sources */,
+				6102774C1D5C46D4009AA1B3 /* VSDropdown.m in Sources */,
+				A2C5D79023890B8900099FBA /* CarouselTableViewCell.swift in Sources */,
+				A224DC2223CB4DD70048292E /* ForgotPasswordTVC.swift in Sources */,
+				6153F6481D9955440065187D /* MyAttendanceViewController.m in Sources */,
+				A28F9CC1235C7C8E0012739A /* Helper+UIView.swift in Sources */,
+				0452BA53243880580077F431 /* BADefaulterTVC.swift in Sources */,
+				618364451D901A8D00A91F7D /* DietCardTableViewCell.m in Sources */,
+				0466A20E2431049B000264B4 /* BAAttendence.swift in Sources */,
+				621396921F791314001F742F /* CommentTableViewCell.m in Sources */,
+				A27DD79D23C9CB990018BC76 /* PackageDetailViewController.swift in Sources */,
+				62C540B11F723C630011C403 /* TodayTrainerTableViewCell.m in Sources */,
+				A2C5D79523895AEA00099FBA /* HelperUtility.swift in Sources */,
+				049CB6D5245206B800A30D4A /* NoCreditViewController.swift in Sources */,
+				A28F9CBE235C7C300012739A /* RegistrationTableViewController.swift in Sources */,
+				6122CDAF1D7D4512009351AB /* GroupClassesViewController.m in Sources */,
+				04D609C61AB76F6C00222C51 /* LoginViewController.m in Sources */,
+				A28F9CC3235C7D4F0012739A /* NeoConstants.swift in Sources */,
+				61F6F1F31D9A4A2F00E40476 /* myMembershipViewController.m in Sources */,
+				6176E42F1D599FBC007EEEE3 /* XMLReader.m in Sources */,
+				A2EA38C2236EB249008AA4BA /* CustomSectionHeader.swift in Sources */,
+				617976B71D913A7A00B4CA80 /* fitnessSummaryViewController.m in Sources */,
+				04D609771AB75FEB00222C51 /* AppDelegate.m in Sources */,
+				A261CD3923DDBC51005A2D01 /* WorkOutDetailTVC.swift in Sources */,
+				624F49DB1ECF031B00AE92ED /* ObesitySessionPopupViewTableViewCell.m in Sources */,
+				61B779351D5B1FD30039833C /* SalesEnquiryViewController.m in Sources */,
+				629F582D1ECC348500E41817 /* ObacityReportTableViewCell.m in Sources */,
+				04A2376B2442096C00FFCD86 /* UIView+Extension.swift in Sources */,
+				61F6F1F01D9A3F3E00E40476 /* medicalHistoryViewController.m in Sources */,
+				62B937A41ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m in Sources */,
+				A284BEC123925991006A0FB7 /* HomeTabbarController.swift in Sources */,
+				0466A20924310054000264B4 /* BAProfile.swift in Sources */,
+				A2BA4B4823D3210E005E3188 /* GroupClassDetailCell.swift in Sources */,
+				62B937AA1ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m in Sources */,
+				621F9CAB1F31095800F9D861 /* WebXMLParser.m in Sources */,
+				04D609731AB75FEB00222C51 /* main.m in Sources */,
+				D3EB9F9A1D46813D001172A7 /* SideTableViewCell.m in Sources */,
+				6153F64B1D9955680065187D /* myAttendanceTableViewCell.m in Sources */,
+				04FFC0991ABDCFC30000730E /* ObjectClass.m in Sources */,
+				62475D0E1EA4CDF500E6BDAC /* DrObservationViewController.m in Sources */,
+				629F582A1ECC29CE00E41817 /* ObecityReportViewController.m in Sources */,
+				A2C5D78E2389074900099FBA /* workOutTableViewCell.swift in Sources */,
+				61B779381D5B1FFC0039833C /* salesEnquiryTableViewCell.m in Sources */,
+				04F3D7611ACC902A00983593 /* MBProgressHUD.m in Sources */,
+				62E4E4E11E3372C600484AEE /* testDetailTableViewCell.m in Sources */,
+				62B937A71ECD7E8200C3650C /* ObecityReportDetailViewController.m in Sources */,
+				61F6F1F61D9A563000E40476 /* myMembershipTableViewCell.m in Sources */,
+				A28E12C423939EBF0020BF87 /* LocationTableViewController.swift in Sources */,
+				62E4E4DE1E3372A000484AEE /* testDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D609831AB75FEB00222C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D609951AB75FEB00222C51 /* Indus_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D6098D1AB75FEB00222C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D609621AB75FEB00222C51 /* NeoFitness */;
+			targetProxy = 04D6098C1AB75FEB00222C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A383BE1B37E7BE004FEE75 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A383BF1B37E7BE004FEE75 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		04D6096F1AB75FEB00222C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D609701AB75FEB00222C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04D609781AB75FEB00222C51 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D609791AB75FEB00222C51 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		04D609911AB75FEB00222C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D609921AB75FEB00222C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D609961AB75FEB00222C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "1e84059f-53a2-48a2-b84e-a5e2c8e0e619";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		04D609971AB75FEB00222C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "1e84059f-53a2-48a2-b84e-a5e2c8e0e619";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D609991AB75FEB00222C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE479B26BA688AE4D742FDB9 /* Pods-NeoFitness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49ZXSM566S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoFitness/NeoFitness-Prefix.pch";
+				INFOPLIST_FILE = "NeoFitness/NeoFitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.4.4;
+				PRODUCT_BUNDLE_IDENTIFIER = tvs.NeoFitnes;
+				PRODUCT_NAME = NeoFitness;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_PNG_TEXT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoFitness/View Controllers/NeoFitness-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04D6099A1AB75FEB00222C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51870FDEF4129BC7B907B4B4 /* Pods-NeoFitness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49ZXSM566S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeoFitness/NeoFitness-Prefix.pch";
+				INFOPLIST_FILE = "NeoFitness/NeoFitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.4.4;
+				PRODUCT_BUNDLE_IDENTIFIER = tvs.NeoFitnes;
+				PRODUCT_NAME = NeoFitness;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_PNG_TEXT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoFitness/View Controllers/NeoFitness-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04D6099C1AB75FEB00222C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBF1238BFA0F30BCF5533AB /* Pods-NeoFitnessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				DEVELOPMENT_TEAM = XE22B68L7U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeInvestments/NeoFitness-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sapient/SapientTests-Info.plist";
+				PRODUCT_NAME = NeoFitness;
+				PROVISIONING_PROFILE = "1e84059f-53a2-48a2-b84e-a5e2c8e0e619";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vista.app/Vista";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04D6099D1AB75FEB00222C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD6A2A4DFA62E5D1F3E4741 /* Pods-NeoFitnessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sitesh Amitabh (RKV2R4Y3LA)";
+				DEVELOPMENT_TEAM = XE22B68L7U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeInvestments/NeoFitness-Prefix.pch";
+				INFOPLIST_FILE = "Sapient/SapientTests-Info.plist";
+				PRODUCT_NAME = NeoFitness;
+				PROVISIONING_PROFILE = "1e84059f-53a2-48a2-b84e-a5e2c8e0e619";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vista.app/Vista";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D6095E1AB75FEB00222C51 /* Build configuration list for PBXProject "NeoFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D609961AB75FEB00222C51 /* Debug */,
+				04D609971AB75FEB00222C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D609981AB75FEB00222C51 /* Build configuration list for PBXNativeTarget "NeoFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D609991AB75FEB00222C51 /* Debug */,
+				04D6099A1AB75FEB00222C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D6099B1AB75FEB00222C51 /* Build configuration list for PBXNativeTarget "NeoFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D6099C1AB75FEB00222C51 /* Debug */,
+				04D6099D1AB75FEB00222C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D6095B1AB75FEB00222C51 /* Project object */;
+}
