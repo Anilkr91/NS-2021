@@ -789,10 +789,10 @@ CGFloat X7=highestLengthOfText1+highestLengthOfText2+highestLengthOfText3+highes
     }
      return width;
     }
-- (CGFloat)widthOfString:(NSString *)string withFont:(NSFont *)font {
-    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
-    return [[[NSAttributedString alloc] initWithString:string attributes:attributes] size].width;
-}
+//- (CGFloat)widthOfString:(NSString *)string withFont:(NSFont *)font {
+//    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+//    return [[[NSAttributedString alloc] initWithString:string attributes:attributes] size].width;
+//}
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
     [self filterOperators:searchText];

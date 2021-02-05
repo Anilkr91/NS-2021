@@ -11,6 +11,8 @@ target 'NeoFitness' do
   pod 'Kingfisher'
   pod 'PayUmoney_PnP'
   pod 'SwiftyUserDefaults', '~> 4.0.0'
+  pod 'SwiftyUserDefaults', '~> 4.0.0'
+  pod 'YouTubePlayer'
 #  pod 'Firebase/Analytics'
 # pod 'PayUmoney_PnP'
 #  pod 'PayUmoney_CoreSDK'

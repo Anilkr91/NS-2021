@@ -173,6 +173,8 @@
 		A2D699CF2415092200F95D6E /* workout_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D699CE2415092200F95D6E /* workout_placeholder.jpg */; };
 		A2EA38C2236EB249008AA4BA /* CustomSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EA38C0236EB249008AA4BA /* CustomSectionHeader.swift */; };
 		A2EA38C3236EB249008AA4BA /* CustomSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EA38C1236EB249008AA4BA /* CustomSectionHeader.xib */; };
+		CEA3130D25CC61BD00C313BA /* FitnessChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3130C25CC61BD00C313BA /* FitnessChannelTableViewCell.swift */; };
+		CEA3131D25CC68C700C313BA /* FitnessChannelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3131C25CC68C600C313BA /* FitnessChannelCollectionViewCell.swift */; };
 		D3EB9F9A1D46813D001172A7 /* SideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB9F991D46813D001172A7 /* SideTableViewCell.m */; };
 		D3EB9F9D1D468DFC001172A7 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB9F9C1D468DFC001172A7 /* SidebarTableViewController.m */; };
 		F274C04A7439B8819B11ABAA /* Pods_NeoFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F415E1D9244DB416D55CB5A /* Pods_NeoFitness.framework */; };
@@ -415,6 +417,8 @@
 		A2EA38C0236EB249008AA4BA /* CustomSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSectionHeader.swift; path = "NeoFitness/View Controllers/CustomSectionHeader.swift"; sourceTree = SOURCE_ROOT; };
 		A2EA38C1236EB249008AA4BA /* CustomSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomSectionHeader.xib; path = "NeoFitness/View Controllers/CustomSectionHeader.xib"; sourceTree = SOURCE_ROOT; };
 		BE479B26BA688AE4D742FDB9 /* Pods-NeoFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoFitness.debug.xcconfig"; path = "Target Support Files/Pods-NeoFitness/Pods-NeoFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA3130C25CC61BD00C313BA /* FitnessChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessChannelTableViewCell.swift; sourceTree = "<group>"; };
+		CEA3131C25CC68C600C313BA /* FitnessChannelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessChannelCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3EB9F981D46813D001172A7 /* SideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTableViewCell.h; sourceTree = "<group>"; };
 		D3EB9F991D46813D001172A7 /* SideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTableViewCell.m; sourceTree = "<group>"; };
 		D3EB9F9B1D468DFC001172A7 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
@@ -620,6 +624,8 @@
 				0466A20A24310065000264B4 /* BranchAdmin */,
 				A27BFF5D25CAB1C9001084E1 /* ShopProductsTableViewCell.swift */,
 				A27BFF5F25CAB60B001084E1 /* shopProductCollectionViewCell.swift */,
+				CEA3130C25CC61BD00C313BA /* FitnessChannelTableViewCell.swift */,
+				CEA3131C25CC68C600C313BA /* FitnessChannelCollectionViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -1172,6 +1178,7 @@
 				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
 				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/ZKCarousel/ZKCarousel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1182,6 +1189,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZKCarousel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1292,6 +1300,7 @@
 				61F6F1F01D9A3F3E00E40476 /* medicalHistoryViewController.m in Sources */,
 				62B937A41ECD7E3600C3650C /* ObecityReportDetailTableViewCell.m in Sources */,
 				A284BEC123925991006A0FB7 /* HomeTabbarController.swift in Sources */,
+				CEA3130D25CC61BD00C313BA /* FitnessChannelTableViewCell.swift in Sources */,
 				0466A20924310054000264B4 /* BAProfile.swift in Sources */,
 				A2BA4B4823D3210E005E3188 /* GroupClassDetailCell.swift in Sources */,
 				62B937AA1ECDCF1500C3650C /* ObesitySessionDetailTableViewCell.m in Sources */,
@@ -1302,6 +1311,7 @@
 				04FFC0991ABDCFC30000730E /* ObjectClass.m in Sources */,
 				62475D0E1EA4CDF500E6BDAC /* DrObservationViewController.m in Sources */,
 				629F582A1ECC29CE00E41817 /* ObecityReportViewController.m in Sources */,
+				CEA3131D25CC68C700C313BA /* FitnessChannelCollectionViewCell.swift in Sources */,
 				A2C5D78E2389074900099FBA /* workOutTableViewCell.swift in Sources */,
 				61B779381D5B1FFC0039833C /* salesEnquiryTableViewCell.m in Sources */,
 				04F3D7611ACC902A00983593 /* MBProgressHUD.m in Sources */,

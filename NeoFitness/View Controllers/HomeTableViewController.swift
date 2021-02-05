@@ -271,15 +271,15 @@ extension HomeTableViewController {
             return cell
             
         } else if indexPath.section == 4 {
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "CarouselTableViewCell", for: indexPath) as! CarouselTableViewCell
-//            cell.pagerView.reloadData()
-//            return cell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "FitnessChannelTableViewCell", for: indexPath) as! FitnessChannelTableViewCell
+            cell.fitnessCollectionView.reloadData()
+            return cell
 //           
        
         } else if indexPath.section == 5 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "workOutTableViewCell", for: indexPath) as! workOutTableViewCell
             //cell.delegate = self
-            //cell.setupClassData(carousels: self.workouts)
+            cell.setupClassData(carousels: self.workouts)
 //            self.workoutHeight = cell.height
 //            print(self.workoutHeight)
             return cell
