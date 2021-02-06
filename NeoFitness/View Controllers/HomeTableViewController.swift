@@ -227,11 +227,22 @@ extension HomeTableViewController {
         let headerView = self.tableView.dequeueReusableHeaderFooterView(withIdentifier: "customSectionHeader" ) as! CustomSectionHeader
         headerView.titleLabel.text = sectionTitle[section].header
         headerView.subtitleLabel.text = sectionTitle[section].subHeading
+        
+//        if section == 1 {
+//            headerView.backgroundColor = .red
+//        } else {
+//            headerView.backgroundColor = .purple
+//        }
+//         headerView.titleLabel.textColor = .white
+//        headerView.subtitleLabel.textColor = .white
         return headerView
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
+        if section == 0 {
+            return 0
+        }
         if section == 1  {
             return 60
         
@@ -300,7 +311,7 @@ extension HomeTableViewController {
         } else if indexPath.section == 3 || indexPath.section == 5 {
             return 225
         
-        } else if indexPath.section == 2 {
+        } else if indexPath.section == 2 || indexPath.section == 4 {
             return 250
        
         }  else if  indexPath.section == 6 {

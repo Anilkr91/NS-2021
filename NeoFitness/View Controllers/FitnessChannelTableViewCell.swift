@@ -44,7 +44,7 @@ extension FitnessChannelTableViewCell: UICollectionViewDataSource, UICollectionV
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FitnessChannelCollectionViewCell", for: indexPath) as! FitnessChannelCollectionViewCell
-        cell.playerView.loadVideoID("dJ2XvuRWndA")
+        cell.playerView.loadVideoID("gPycVQ2S8CU")
         return cell
     }
     
